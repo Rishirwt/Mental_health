@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAA831"
+    tools:context=".result">
+
+
+    <TextView
+android:gravity="center"
+        android:textStyle="italic|bold"
+        android:textSize="40sp"
+
+        android:textColor="#000"
+        android:id="@+id/result"
+        android:layout_width="328dp"
+        android:layout_height="427dp"
+        android:layout_centerInParent="true" />
+</RelativeLayout>
